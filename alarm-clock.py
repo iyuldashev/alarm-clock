@@ -16,6 +16,6 @@ while True:
         if(alarm_hour==current_hour):
             if(alarm_minute==current_minute):
                 if(alarm_seconds==current_seconds):
-                    print("Wake Up!")
-                    playsound('audio.mp3')
+                    print("Wakey-Wakey, it's time for coding!")
+                    playsound('clock.mp3')
                     break
